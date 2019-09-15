@@ -7,7 +7,7 @@ homepage = "https://github.com/paritytech/parity-common"
 description = "Serde serialization support for uint and fixed hash."
 
 [dependencies]
-serde = "1.0"
+serde = { git = "https://github.com/mesalock-linux/serde-sgx.git", rev = "81f47e78242de4fcccafbeb78d5250616a85c7c4", optional=true }
 
 [dev-dependencies]
 criterion = "0.3.0"
